@@ -1,0 +1,72 @@
+[DebugChecksum]
+Checksum=-1222631810
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[struct_types]
+Fmt0=AT_CMD_CB-ucCmdStrLen	2	0
+Fmt1=GPRS_Handler-ucTxLen	3	0
+Fmt2=Time_Count_TypeDef-count_sec	3	0
+[array_types]
+Fmt0=U8[256]	5	0
+[watch_formats]
+Fmt0={W}0:backup_sec	3	0
+[DataSample]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\..\Code\4 Bsp\bsp_key.c}.160.1" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\..\Code\4 Bsp\bsp_ymodem.c}.2.1" 0 0 0 0 "" 0 ""
+Bp2=_ "STD_CODE" "{$PROJ_DIR$}.1308.21" 0 0 0 0 "" 0 ""
+Bp3=_ "STD_CODE" "{$PROJ_DIR$}.1725.25" 0 0 0 0 "" 0 ""
+Bp4=_ "STD_CODE" "{$PROJ_DIR$}.424.13" 0 0 0 0 "" 0 ""
+Count=5
+[Aliases]
+A0=_ "D:\CODE\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Code\4 Bsp\bsp_mem.c" ""
+A1=_ "E:\CODE\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Code\1 System\main.c" ""
+A2=_ "E:\CODE\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Code\1 System\stm8l15x_it.c" ""
+A3=_ "E:\CODE\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Code\2 Task\8 task_interaction.c" ""
+A4=_ "E:\CODE\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Code\3 App\app_common.c" ""
+A5=_ "E:\CODE\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Code\4 Bsp\bsp_adc.c" ""
+A6=_ "E:\CODE\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Code\4 Bsp\bsp_common.c" ""
+A7=_ "E:\CODE\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Code\4 Bsp\bsp_gpio.c" ""
+A8=_ "E:\CODE\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Code\4 Bsp\bsp_gprs.c" ""
+A9=_ "E:\CODE\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Code\4 Bsp\bsp_iwdg.c" ""
+A10=_ "E:\CODE\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Code\4 Bsp\bsp_mem.c" ""
+A11=_ "E:\CODE\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Code\4 Bsp\bsp_rcc.c" ""
+A12=_ "E:\CODE\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Code\4 Bsp\bsp_tim.c" ""
+A13=_ "E:\CODE\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Code\4 Bsp\bsp_uart.c" ""
+A14=_ "E:\CODE\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Code\4 Bsp\bsp_var.c" ""
+A15=_ "E:\CODE\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Code\4 Bsp\bsp_ymodem.c" ""
+A16=_ "E:\CODE\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Code\5 Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_adc.c" ""
+A17=_ "E:\CODE\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Code\5 Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_clk.c" ""
+A18=_ "E:\CODE\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Code\5 Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_exti.c" ""
+A19=_ "E:\CODE\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Code\5 Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_flash.c" ""
+A20=_ "E:\CODE\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Code\5 Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_gpio.c" ""
+A21=_ "E:\CODE\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Code\5 Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_iwdg.c" ""
+A22=_ "E:\CODE\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Code\5 Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim2.c" ""
+A23=_ "E:\CODE\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Code\5 Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim3.c" ""
+A24=_ "E:\CODE\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Code\5 Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim5.c" ""
+A25=_ "E:\CODE\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Code\5 Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_usart.c" ""
+Count=26
+SuppressDialog=1
