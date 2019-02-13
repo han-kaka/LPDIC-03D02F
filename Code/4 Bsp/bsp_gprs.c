@@ -2,11 +2,17 @@
 
 void G510_Power_EN(void)
 {
+    #if DEBUG_NETWORK
+        BSP_LOG("/** set bit gprs buck en pin£¡**/\n\n");
+    #endif
     GPIO_SetBits(GPRS_BUCK_EN_PORT,GPRS_BUCK_EN_PIN);
 }
 
 void G510_Power_DISEN(void)
 {
+    #if DEBUG_NETWORK
+        BSP_LOG("/** reset bit gprs buck en pin£¡**/\n\n");
+    #endif
     GPIO_ResetBits(GPRS_BUCK_EN_PORT,GPRS_BUCK_EN_PIN);
 }
 

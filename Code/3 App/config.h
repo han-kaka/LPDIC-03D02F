@@ -28,7 +28,7 @@
 #endif
 
 /****************** debug control  *******************/
-#define      DEBUG				    0
+#define      DEBUG				    1
 
 #if DEBUG
     #define      DEBUG_LED          1

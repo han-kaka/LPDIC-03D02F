@@ -216,6 +216,8 @@ Loading object D:\code\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Project\Debug\Obj\a
               reference :  ?w5
               reference :  ?w6
               reference :  ?w7
+              reference :  BSP_LOG
+              reference :  BSP_LOG_Value
               reference :  BSP_UART_Transmit
               reference :  Check_Strstr
               reference :  CntLeadZeros
@@ -392,9 +394,9 @@ Loading object D:\code\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Project\Debug\Obj\b
               reference :  ?epilogue_l2_w6
               reference :  ?load24_e2_xsp
               reference :  ?load32_0x_l0
+              reference :  ?load32_0x_l2
               reference :  ?load32_l0_0x
               reference :  ?mov_e3_e2
-              reference :  ?mov_l0_l1
               reference :  ?mov_l0_l2
               reference :  ?mov_l1_l0
               reference :  ?mov_l1_l2
@@ -431,10 +433,13 @@ Loading object D:\code\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Project\Debug\Obj\b
               reference :  ADC_SchmittTriggerConfig
               reference :  ADC_SoftwareStartConv
               reference :  ADC_VrefintCmd
+              reference :  BSP_LOG
+              reference :  BSP_LOG_Value
               reference :  CLK_PeripheralClockConfig
               reference :  System_Flag
               reference :  TASK_State
               reference :  USB_Sample_GPIO_Init
+              reference :  hour_time_count
               reference :  min_time_count
               definition:  ADC_USB_Insert_Check
               definition:  ADC_USB_Pullout_Check
@@ -446,9 +451,13 @@ Loading object D:\code\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Project\Debug\Obj\b
               definition:  adc_usb_zero_value
               definition:  bubble_sort
 Loading object D:\code\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Project\Debug\Obj\bsp_common.o.
+              reference :  ?b1
+              reference :  ?b2
+              reference :  ?b3
               reference :  ?w0
               reference :  ?w1
               reference :  APP_COMM_Init
+              reference :  BSP_LOG
               reference :  BSP_Task_Flag_Init
               reference :  Bsp_GPIO_Init
               reference :  Bsp_MEM_Init
@@ -488,6 +497,7 @@ Loading object D:\code\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Project\Debug\Obj\b
               reference :  ?w1
               reference :  ?w4
               reference :  ?w5
+              reference :  BSP_LOG
               reference :  GPIO_ResetBits
               reference :  GPIO_SetBits
               reference :  Tim3_Delay_Ms
@@ -620,9 +630,16 @@ Loading object D:\code\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Project\Debug\Obj\b
               definition:  key_interval_count
 Loading object D:\code\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Project\Debug\Obj\bsp_tim.o.
               reference :  ?b0
+              reference :  ?b1
+              reference :  ?b2
+              reference :  ?b3
               reference :  ?epilogue_w4
               reference :  ?push_w4
+              reference :  ?w0
+              reference :  ?w1
               reference :  ?w4
+              reference :  BSP_LOG
+              reference :  BSP_LOG_Value
               reference :  Bsp_Task_Control
               reference :  Bsp_Uart_Data
               reference :  CLK_PeripheralClockConfig
@@ -745,6 +762,8 @@ Loading object D:\code\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Project\Debug\Obj\b
               reference :  ?move1624_v_x_e0_y
               reference :  ?w0
               reference :  ?w1
+              reference :  BSP_LOG
+              reference :  BSP_LOG_Value
               reference :  g_stGPRS_Handler
               reference :  gprs_status
               reference :  mode_status
@@ -760,6 +779,7 @@ Loading object D:\code\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Project\Debug\Obj\b
               reference :  ?add32_l0_l0_0x
               reference :  ?b0
               reference :  ?b1
+              reference :  ?b2
               reference :  ?b3
               reference :  ?b4
               reference :  ?b5
@@ -800,6 +820,7 @@ Loading object D:\code\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Project\Debug\Obj\b
               reference :  ?w5
               reference :  ?w6
               reference :  ?w7
+              reference :  BSP_LOG
               reference :  FLASH_Erase_Block
               reference :  FitCRC_Calc16
               reference :  Read_BufferFlash
@@ -2775,10 +2796,10 @@ Resolving duplicate symbol definitions
     Suppressing _interrupt_9 [s6 interrupt.o(dlstm8mln.a)]
   Picking __iar_cc..1vQ$zKGRSN4 [s84 D:\code\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Project\Debug\Obj\stm8l15x_gpio.o]
     Suppressing __iar_cc..1vQ$zKGRSN4 [s16 D:\code\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Project\Debug\Obj\2 task_control.o]
-    Suppressing __iar_cc..1vQ$zKGRSN4 [s245 D:\code\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Project\Debug\Obj\app_comm_g510.o]
+    Suppressing __iar_cc..1vQ$zKGRSN4 [s260 D:\code\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Project\Debug\Obj\app_comm_g510.o]
     Suppressing __iar_cc..1vQ$zKGRSN4 [s39 D:\code\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Project\Debug\Obj\app_comm_pc.o]
     Suppressing __iar_cc..1vQ$zKGRSN4 [s39 D:\code\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Project\Debug\Obj\bsp_gpio.o]
-    Suppressing __iar_cc..1vQ$zKGRSN4 [s45 D:\code\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Project\Debug\Obj\bsp_gprs.o]
+    Suppressing __iar_cc..1vQ$zKGRSN4 [s47 D:\code\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Project\Debug\Obj\bsp_gprs.o]
     Suppressing __iar_cc..1vQ$zKGRSN4 [s35 D:\code\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Project\Debug\Obj\bsp_led.o]
     Suppressing __iar_cc..1vQ$zKGRSN4 [s85 D:\code\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Project\Debug\Obj\bsp_uart.o]
   Picking strstr [s9 D:\code\Charge\CHARGE_GPRS\trunk\LPDIC-03D02F\Project\Debug\Obj\bsp_ymodem.o]

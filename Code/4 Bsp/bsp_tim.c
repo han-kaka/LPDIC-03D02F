@@ -133,8 +133,17 @@ void Bsp_Time_Update(void)
               if(Time_Count.reOpenStaProcCount >= RE_OPEN_STA_PROC_TIME)
               {
                    Time_Count.reOpenStaProcCount = 0;
+                   #if DEBUG_NETWORK
+                        BSP_LOG("/** re open sta proc£¡**/\n\n");
+                        BSP_LOG("/** ymode file: ");
+                        BSP_LOG_Value(System_Flag.flag_ymode_file);
+                        BSP_LOG(" **/\n\n");
+                   #endif
                    if(System_Flag.flag_ymode_file == 1)
                    {
+                   #if DEBUG_NETWORK
+                        BSP_LOG("/** task close sta proc flag disable£¡**/\n\n");
+                   #endif
                         TASK_State.task_close_sta_proc_flag = DISABLE;
                         G510_Power_EN();
                    }
